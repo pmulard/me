@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  background-color: #f1c02f;
+}
+
+.App {
+  margin: 20vh 3.5vw 5vh 2vw;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  /* transition: .5s ease-out; */
+  display: flex;
+}
+
+.App .content-container a {
+  text-decoration: none;
+  color: black;
+
+  /* For styling underline animation */
+  text-decoration: none;
+  background-image: linear-gradient(#00000060, #00000060);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  transition: background-size 0.5s;
+}
+
+.App .content-container a:hover {
+      /* For styling underline animation */
+      background-size: 0% 1px;
+}
+
+.navbar-container {
+  margin: 0 10px 0 0;
+  position: fixed;
+}
+
+.content-container {
+  margin: 10px 0 0 130px;
+  color: black;
+}
+
+.content-container p {
+  margin-top: 0;
+}
+
+
+/* Start with mobile and increase in size... */
+@media only screen and (min-width: 600px) {
+  .App {
+    margin: 20vh 6vw 5vh 6vw;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .App {
+    margin: 20vh 16vw 5vh 16vw;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .App {
+    margin: 20vh 20vw 5vh 20vw;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .App {
+    margin: 20vh 26vw 5vh 26vw;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .App {
+    margin: 20vh 32vw 5vh 32vw;
+  }
+}
