@@ -56,7 +56,7 @@ const PARTICLES = [
   ['square', 'small', 108, 97],
   ['square', 'small', 108, 9],
   ['square', 'small', 140, 75],
-  ['square', 'small', 165, 145],
+  ['square', 'small', 158, 107],
   ['square', 'small', 168, 0],
   ['square', 'small', 204, 80],
   ['square', 'small', 223, 40],
@@ -189,14 +189,14 @@ class Animation extends React.Component {
           style={{ top: -12, left: 143 }}
         ></div>
         <div
-          className="center-dot"
-          style={{ top: 168, left: 148 }}
+          className="object dot"
+          style={{ top: 6, left: 148, width: 4, height: 4 }}
         ></div>
 
         {/* Dot inside center rhombus */}
         <div
-          className="object dot"
-          style={{ top: 6, left: 148, width: 4, height: 4 }}
+          className="center-dot"
+          style={{ top: 168, left: 148 }}
         ></div>
       </div>
     )
