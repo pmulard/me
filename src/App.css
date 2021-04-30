@@ -7,10 +7,9 @@ body {
 }
 
 .App {
-  margin: 20vh 3.5vw 5vh 2vw;
+  margin: 20vh 3.5vw 5vh -2vw;
   font-family: 'Libre Baskerville', serif;
   font-size: 14px;
-  /* transition: .5s ease-out; */
   display: flex;
 }
 

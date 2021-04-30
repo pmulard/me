@@ -194,10 +194,20 @@
 }
 
 
-/* Adjust position of tree for small/big screens */
-@media only screen and (max-width: 600px) {
+/* Adjust position and scale of tree for screen size */
+@media only screen and (max-width: 470px) {
   .animation-container {
-    left: 6vw;
+    top: -12vh;
+    left: -6vw;
+    transform: scale(0.75);
+  }
+}
+
+@media only screen and (min-width: 471px) and (max-width: 600px) {
+  .animation-container {
+    top: -50px;
+    left: 5vw;
+    transform: scale(0.85);
   }
 }
 

@@ -22,3 +22,9 @@
     color: black;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    font-size: 14px;
+  }
+}
