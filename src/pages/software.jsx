@@ -12,6 +12,11 @@ const PROJECTS = [
     name: 'Moon Phase Calculator',
     description: 'Web-based tool for calculating moon properties',
     url: 'https://github.com/pmulard/Moon-Phase-Calculator'
+  },
+  {
+    name: 'Data Structures and Algorithms Reference',
+    description: '30+ data structures and algorithms written in JavaScript, Python and Rust',
+    url: 'https://github.com/pmulard/data-structures-and-algorithms'
   }
 ];
 
