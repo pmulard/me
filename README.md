@@ -10,7 +10,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 # Deployment
 
-This website is deployed using GitHub Pages. Before running the commands below, make sure git is tracking the correct branch that is to be deployed.
+This website is deployed using GitHub Pages. Before running the commands below, make sure git is tracking the correct branch that is to be deployed. Avoid touching the gh-pages branch - it automatically updates with build files when finishing the deployment process. 
 
 ### Build
 
