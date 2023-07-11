@@ -5,7 +5,7 @@ import Project from '../components/Project';
 const PROJECTS = [
   {
     name: 'Sorting Algorithm Visualizer',
-    description: 'Interactive web-app displaying sorting algorithms in real time',
+    description: 'Interactive app showing sorting algorithms in real time',
     url: 'https://github.com/pmulard/Sorting-Visualizer'
   },
   {

@@ -17,6 +17,9 @@ class Header extends React.Component {
           <NavLink className='navlink' to='/software'>Software</NavLink>
         </li>
         <li>
+          <a className="navlink" href="https://medium.com/@peter.mulard" target="blank">Blog</a>
+        </li>
+        <li>
           <a className="navlink" href={pdf} target="blank">Resume</a>
         </li>
       </ul>
