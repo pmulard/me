@@ -17,7 +17,17 @@ const PROJECTS = [
     name: 'Data Structures and Algorithms Reference',
     description: '30+ data structures and algorithms written in JavaScript, Python and Rust',
     url: 'https://github.com/pmulard/data-structures-and-algorithms'
-  }
+  },
+  {
+    name: 'TCP Echo Server',
+    description: 'Simple TCP server and client that reflects messages back to the sender',
+    url: 'https://github.com/pmulard/tcp-echo-server'
+  },
+  {
+    name: 'Machine Learning Study Guide',
+    description: 'Comprehensive notes and implementations of machine learning algorithms from Andrew Ng\'s specialization',
+    url: 'https://github.com/pmulard/machine-learning-specialization-andrew-ng'
+  },
 ];
 
 class Software extends React.Component {
