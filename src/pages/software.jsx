@@ -4,6 +4,11 @@ import Project from '../components/Project';
 
 const PROJECTS = [
   {
+    name: 'MotoMemo',
+    description: 'Web app for motorcycle enthusiasts to customize and track their maintenance',
+    url: 'https://moto-memo.com'
+  },
+  {
     name: 'Sorting Algorithm Visualizer',
     description: 'Interactive app showing sorting algorithms in real time',
     url: 'https://github.com/pmulard/Sorting-Visualizer'
