@@ -8,7 +8,7 @@ class AboutInfo extends React.Component {
         <div className="text-container">
           <p>
             Hi, I'm a software engineer with full stack experience, primarily with Rust, Typescript, and React.
-            I'm current building a passion project of mine to bring motorcycle care into the 21st century with <a href="https://moto-memo.com" target="blank">MotoMemo</a>. 
+            I'm currently building a passion project of mine to bring motorcycle care into the 21st century with <a href="https://moto-memo.com" target="blank">MotoMemo</a>. 
             Previously, I was working at <a href="https://nexandria.com" target="blank">Nexandria</a> to build a next generation EVM blockchain explorer.
             Thank you Frederic, Omkar, and Coy for the learning opportunities and camaraderie - It accelerated my learning and confidence so much.
           </p>
